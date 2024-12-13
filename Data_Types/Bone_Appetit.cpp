@@ -5,8 +5,8 @@ int main()
 {
     int bonesPeople, bloodPeople, bonesTreats, bloodTreats;
 
-    cin >> bonesPeople >> bloodPeople;
-    cin >> bonesTreats >> bloodTreats;
+    cin >> bonesPeople >> bloodPeople >> bonesTreats >> bloodTreats;
+
 
     int totalTreats = (bonesPeople * bonesTreats) + (bloodPeople * bloodTreats);
 
